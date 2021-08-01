@@ -1,0 +1,82 @@
+body{
+margin: 0px;
+font-family: 'Oswald', sans-serif;
+background-image: linear-gradient(to right , #33ccff, #cc33ff);
+}
+form{
+margin-top: 20%;
+background-color: rgb(255, 248, 248);
+width: 30%;
+box-shadow: 0px 0px 20px 0px #000000a3;
+
+}
+
+.form {
+display: flex;
+justify-content:  center;
+align-items: center;
+
+}
+.f h2{
+margin-left: 120px;
+font-size: 35px;
+}
+.d {
+margin-left: 5%;
+}
+label {
+color: #000000cf;
+font-size: 20px;
+font-weight: lighter;
+}
+
+input {
+  border: 1px rgb(219, 219, 219) solid;
+  padding: 8px;
+  width: 75%;
+}
+
+.fp a{
+  text-decoration: none;
+  color:  #33ccff;
+ font-family: monospace;
+ font-size: 20px;
+}
+.butt a{
+text-decoration: none;
+color: white;
+font-size: 20px;
+font-weight: 500;
+}
+
+.butt button {
+margin-top: 15px;
+width: 90%;
+background-image: linear-gradient(to right , #33ccff, #cc33ff);
+padding: 6px;
+border: 0px;
+}
+
+button:hover {
+transition: 0.5s;
+transition-property: all ;
+background-image: linear-gradient(to left , #33ccff, #cc33ff);
+
+}
+
+.last p {
+font-size: 17px;
+margin-left: 50px;
+margin-bottom: 10px;
+}
+.last a {
+text-decoration: none;
+color: #33ccff;
+font-weight: lighter;
+
+}
+
+input:hover{
+border-bottom: 1px solid #33ccff;
+}
+
